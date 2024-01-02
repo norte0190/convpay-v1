@@ -42,7 +42,8 @@
 
 ---
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/aebedca6-de1c-45bf-a1a3-1747d920d401/c445ad51-0c17-4a9b-8430-c77a579c2d0d/Untitled.jpeg)
+![image](https://github.com/dev-Seonghwan/coding-test/assets/91909986/3175a90f-0f8a-4562-bfbc-8b28ed87ddd1)
+
 
 ## 개발 과정 #2
 
@@ -71,8 +72,7 @@
 
 ---
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/aebedca6-de1c-45bf-a1a3-1747d920d401/d900ce61-c8c2-44b5-b601-24949a527f07/Untitled.jpeg)
-
+![image](https://github.com/dev-Seonghwan/coding-test/assets/91909986/6c309a70-1427-4e78-8956-5fd64df754dd)
 ## 개발 과정 #3
 
 ---
@@ -99,5 +99,4 @@
 ### 클래스 UML
 
 ---
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/aebedca6-de1c-45bf-a1a3-1747d920d401/eef21a60-92b0-4c13-96bc-d3dd61481af9/Untitled.jpeg)
+![image](https://github.com/dev-Seonghwan/coding-test/assets/91909986/2ddb89b9-00ee-4916-a25f-bec0b28b340a)
