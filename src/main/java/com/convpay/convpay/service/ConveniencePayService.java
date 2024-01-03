@@ -5,7 +5,8 @@ public class ConveniencePayService {
 
     }
 
-    public void payCancle(){
+    public void payCancel(){
 
     }
+
 }
