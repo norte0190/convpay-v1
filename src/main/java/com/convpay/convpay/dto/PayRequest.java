@@ -1,13 +1,13 @@
 package com.convpay.convpay.dto;
 
-public class payRequest {
+public class PayRequest {
     // 편의점 종류
     ConvenienceType convenienceType;
 
     // 결제 금액
     Integer payAmount;
 
-    public payRequest(ConvenienceType convenienceType, Integer payAmount) {
+    public PayRequest(ConvenienceType convenienceType, Integer payAmount) {
         this.convenienceType = convenienceType;
         this.payAmount = payAmount;
     }
