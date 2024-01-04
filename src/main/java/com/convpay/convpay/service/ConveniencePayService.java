@@ -5,7 +5,9 @@ import com.convpay.convpay.dto.PayResponse;
 import com.convpay.convpay.dto.PayResult;
 
 public class ConveniencePayService {
+    private final MoneyAdapter moneyAdapter = new MoneyAdapter();
     public PayResponse pay(PayRequest payRequest) {
+        moneyAdapter.use(payRequest.getPayAmount());
         return new PayResponse(PayResult.SUCCESS,100);
     }
 

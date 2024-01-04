@@ -1,10 +1,16 @@
 package com.convpay.convpay.service;
 
 public class MoneyAdapter {
-    public void pay(){
+    public MoneyUseResult use(Integer payAmount){
+        System.out.println("MoneyAdapter.use : " + payAmount);
 
+        if(payAmount > 1000_000){
+            return MoneyUseResult.USE_FAIL;
+
+        }
+        return MoneyUseResult.USE_SUCCESS;
     }
-    public void payCancle(){
+    public void useCancle(){
 
     }
 
