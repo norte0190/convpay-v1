@@ -1,5 +1,7 @@
 package com.convpay.convpay.dto;
 
+import com.convpay.convpay.type.PayResult;
+
 public class PayResponse {
     // 결제 결과
     PayResult payResult;

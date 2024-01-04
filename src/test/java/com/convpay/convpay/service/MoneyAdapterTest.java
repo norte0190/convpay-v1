@@ -1,9 +1,10 @@
 package com.convpay.convpay.service;
 
+import com.convpay.convpay.type.MoneyUseResult;
 import org.junit.jupiter.api.Test;
 
-import static com.convpay.convpay.service.MoneyUseResult.USE_FAIL;
-import static com.convpay.convpay.service.MoneyUseResult.USE_SUCCESS;
+import static com.convpay.convpay.type.MoneyUseResult.USE_FAIL;
+import static com.convpay.convpay.type.MoneyUseResult.USE_SUCCESS;
 import static org.junit.jupiter.api.Assertions.*;
 
 class MoneyAdapterTest {
