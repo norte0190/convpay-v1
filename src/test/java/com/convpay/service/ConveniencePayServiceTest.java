@@ -1,6 +1,6 @@
 package com.convpay.service;
 
-import com.convpay.dto.PayCancelRequset;
+import com.convpay.dto.PayCancelRequest;
 import com.convpay.dto.PayCancelResponse;
 import com.convpay.type.ConvenienceType;
 import com.convpay.dto.PayRequest;
@@ -44,7 +44,7 @@ class ConveniencePayServiceTest {
     @Test
     void pay_cancel_success(){
         //given
-        PayCancelRequset payCancelRequest = new PayCancelRequset(ConvenienceType.GS25,1000);
+        PayCancelRequest payCancelRequest = new PayCancelRequest(ConvenienceType.GS25,1000);
 
         //when
         PayCancelResponse payCancelResponse = conveniencePayService.payCancel(payCancelRequest);
@@ -57,7 +57,7 @@ class ConveniencePayServiceTest {
     @Test
     void pay_cancel_fail(){
         //given
-        PayCancelRequset payCancelRequest = new PayCancelRequset(ConvenienceType.GS25,99);
+        PayCancelRequest payCancelRequest = new PayCancelRequest(ConvenienceType.GS25,99);
 
         //when
         PayCancelResponse payCancelResponse = conveniencePayService.payCancel(payCancelRequest);

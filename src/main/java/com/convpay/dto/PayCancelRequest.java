@@ -2,7 +2,7 @@ package com.convpay.dto;
 
 import com.convpay.type.ConvenienceType;
 
-public class PayCancelRequset {
+public class PayCancelRequest {
     //편의점 종류
     ConvenienceType convenienceType;
 
@@ -10,7 +10,7 @@ public class PayCancelRequset {
     Integer payCancelAmount;
 
 
-    public PayCancelRequset(ConvenienceType convenienceType, Integer payCancelAmount) {
+    public PayCancelRequest(ConvenienceType convenienceType, Integer payCancelAmount) {
         this.convenienceType = convenienceType;
         this.payCancelAmount = payCancelAmount;
     }

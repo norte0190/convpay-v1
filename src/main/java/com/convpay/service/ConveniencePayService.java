@@ -5,7 +5,7 @@ import com.convpay.type.MoneyUseCancelResult;
 import com.convpay.type.MoneyUseResult;
 import com.convpay.type.PayCancelResult;
 import com.convpay.type.PayResult;
-import com.convpay.dto.PayCancelRequset;
+import com.convpay.dto.PayCancelRequest;
 import com.convpay.dto.PayCancelResponse;
 
 public class ConveniencePayService {
@@ -23,9 +23,9 @@ public class ConveniencePayService {
         return new PayResponse(PayResult.SUCCESS, payRequest.getPayAmount());
     }
 
-    public PayCancelResponse payCancel(PayCancelRequset payCancelRequset) {
+    public PayCancelResponse payCancel(PayCancelRequest payCancelRequest) {
         MoneyUseCancelResult moneyUseCancelResult = moneyAdapter.useCancel(
-                payCancelRequset.getPayCancelAmount());
+                payCancelRequest.getPayCancelAmount());
 
         if(moneyUseCancelResult == MoneyUseCancelResult.MONEY_USE_CANCEL_FAIL)
         {
@@ -34,7 +34,7 @@ public class ConveniencePayService {
 
         // Success Case
         return new PayCancelResponse(PayCancelResult.PAY_CANCEL_SUCCESS,
-                payCancelRequset.getPayCancelAmount());
+                payCancelRequest.getPayCancelAmount());
 
     }
 
