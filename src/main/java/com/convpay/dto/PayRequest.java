@@ -1,6 +1,6 @@
-package com.convpay.convpay.dto;
+package com.convpay.dto;
 
-import com.convpay.convpay.type.ConvenienceType;
+import com.convpay.type.ConvenienceType;
 
 public class PayRequest {
     // 편의점 종류

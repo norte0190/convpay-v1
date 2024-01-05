@@ -1,4 +1,4 @@
-package com.convpay.convpay;
+package com.convpay;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

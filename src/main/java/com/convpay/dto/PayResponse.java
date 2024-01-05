@@ -1,6 +1,6 @@
-package com.convpay.convpay.dto;
+package com.convpay.dto;
 
-import com.convpay.convpay.type.PayResult;
+import com.convpay.type.PayResult;
 
 public class PayResponse {
     // 결제 결과

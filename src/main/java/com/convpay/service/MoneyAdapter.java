@@ -1,7 +1,7 @@
-package com.convpay.convpay.service;
+package com.convpay.service;
 
-import com.convpay.convpay.type.MoneyUseCancelResult;
-import com.convpay.convpay.type.MoneyUseResult;
+import com.convpay.type.MoneyUseCancelResult;
+import com.convpay.type.MoneyUseResult;
 
 public class MoneyAdapter {
     public MoneyUseResult use(Integer payAmount){
@@ -13,8 +13,8 @@ public class MoneyAdapter {
         }
         return MoneyUseResult.USE_SUCCESS;
     }
-    public MoneyUseCancelResult useCancle(Integer payCancelAmount){
-        System.out.println("MoneyAdapter.useCancle : " + payCancelAmount);
+    public MoneyUseCancelResult useCancel(Integer payCancelAmount){
+        System.out.println("MoneyAdapter.useCancel : " + payCancelAmount);
 
         if(payCancelAmount < 100){
             return MoneyUseCancelResult.MONEY_USE_CANCEL_FAIL;

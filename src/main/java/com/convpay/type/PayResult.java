@@ -1,4 +1,4 @@
-package com.convpay.convpay.type;
+package com.convpay.type;
 
 public enum PayResult {
     SUCCESS,
