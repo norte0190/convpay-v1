@@ -16,6 +16,10 @@
 - Project : Gradle Project
 - Spring Boot : 3.2.1
 
+
+<details>
+<summary>접기/펼치기</summary>
+
 ## 개발 과정  #1
 
 ### 기획자의 요구사항
@@ -38,6 +42,11 @@
 
 ![image](https://github.com/dev-Seonghwan/coding-test/assets/91909986/3175a90f-0f8a-4562-bfbc-8b28ed87ddd1)
 
+
+</details>
+
+<details>
+<summary>접기/펼치기</summary>
 
 ## 개발 과정 #2
 
@@ -65,6 +74,11 @@
 ---
 
 ![image](https://github.com/dev-Seonghwan/coding-test/assets/91909986/6c309a70-1427-4e78-8956-5fd64df754dd)
+</details>
+
+<details>
+<summary>접기/펼치기</summary>
+
 ## 개발 과정 #3
 
 ### 기획자의 요구사항
@@ -90,3 +104,9 @@
 
 ---
 ![image](https://github.com/dev-Seonghwan/coding-test/assets/91909986/2ddb89b9-00ee-4916-a25f-bec0b28b340a)
+
+</details>
+
+<details>
+
+
