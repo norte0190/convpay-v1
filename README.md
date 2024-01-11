@@ -16,7 +16,7 @@
 - Project : Gradle Project
 - Spring Boot : 3.2.1
 
-
+---
 <details>
 <summary>개발 과정 #1 : 기본 결제 기능 </summary>
 
@@ -44,6 +44,8 @@
 
 
 </details>
+
+---
 
 <details>
 <summary>개발 과정 #2 : 결제 수단 추가</summary>
@@ -75,6 +77,8 @@
 
 ![image](https://github.com/dev-Seonghwan/coding-test/assets/91909986/6c309a70-1427-4e78-8956-5fd64df754dd)
 </details>
+
+---
 
 <details>
 <summary>개발 과정 #3 : 할인 기능 추가</summary>
