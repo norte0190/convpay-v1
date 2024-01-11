@@ -18,7 +18,7 @@
 
 
 <details>
-<summary>개발 과정 #1</summary>
+<summary>개발 과정 #1 : 기본 결제 기능 </summary>
 
 ## 개발 과정  #1
 
@@ -46,7 +46,7 @@
 </details>
 
 <details>
-<summary>개발 과정 #2</summary>
+<summary>개발 과정 #2 : 결제 수단 추가</summary>
 
 ## 개발 과정 #2
 
@@ -77,7 +77,7 @@
 </details>
 
 <details>
-<summary>개발 과정 #3</summary>
+<summary>개발 과정 #3 : 할인 기능 추가</summary>
 
 ## 개발 과정 #3
 
