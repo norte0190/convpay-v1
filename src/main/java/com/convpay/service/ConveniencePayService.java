@@ -9,6 +9,7 @@ import com.convpay.type.*;
 public class ConveniencePayService {
     private final MoneyAdapter moneyAdapter = new MoneyAdapter();
     private final CardAdapter cardAdapter = new CardAdapter();
+    private final DiscountInterface discountInterface = new DiscountByPayMethod(); //수단
 
     public PayResponse pay(PayRequest payRequest) {
         PaymentInterface paymentInterface;
@@ -18,7 +19,8 @@ public class ConveniencePayService {
             paymentInterface = moneyAdapter;
         }
 
-        PaymentResult payment = paymentInterface.payment(payRequest.getPayAmount());
+        Integer discountAmount = discountInterface.getDiscountAmount(payRequest);
+        PaymentResult payment = paymentInterface.payment(discountAmount);
 
 
         if (payment == PaymentResult.PAYMENT_FAIL) {
@@ -26,7 +28,7 @@ public class ConveniencePayService {
         }
 
         // Success Case
-        return new PayResponse(PayResult.SUCCESS, payRequest.getPayAmount());
+        return new PayResponse(PayResult.SUCCESS, discountAmount);
     }
 
     public PayCancelResponse payCancel(PayCancelRequest payCancelRequest) {
