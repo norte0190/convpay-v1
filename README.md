@@ -18,7 +18,7 @@
 
 
 <details>
-<summary>접기/펼치기</summary>
+<summary>개발 과정 #1</summary>
 
 ## 개발 과정  #1
 
@@ -46,7 +46,7 @@
 </details>
 
 <details>
-<summary>접기/펼치기</summary>
+<summary>개발 과정 #2</summary>
 
 ## 개발 과정 #2
 
@@ -77,7 +77,7 @@
 </details>
 
 <details>
-<summary>접기/펼치기</summary>
+<summary>개발 과정 #3</summary>
 
 ## 개발 과정 #3
 
@@ -105,8 +105,6 @@
 ---
 ![image](https://github.com/dev-Seonghwan/coding-test/assets/91909986/2ddb89b9-00ee-4916-a25f-bec0b28b340a)
 
-</details>
 
-<details>
 
 
