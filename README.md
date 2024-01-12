@@ -109,6 +109,22 @@
 ---
 ![image](https://github.com/dev-Seonghwan/coding-test/assets/91909986/2ddb89b9-00ee-4916-a25f-bec0b28b340a)
 
+---
+
+
+
+## 결과
+
+### 현재 클래스 UML
+
+---
+
+![Aspose Words 3c754827-0ae5-4dfd-b27c-106d6026057d 011](https://github.com/dev-Seonghwan/convpay/assets/91909986/fb17ab51-26cb-4474-be9e-bab16c2ff234)
+
+
+- 위 코드를 구현하다보면 중간에 Interface를 두지만 결국 구현체를 결제서비스가 직접 선택
+하여 의존
+- 결제서비스가 구현체를 직접 선택하지 않도록 하려면 어떻게 하면 될까?
 
 
 
