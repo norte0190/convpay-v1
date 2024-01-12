@@ -1,6 +1,5 @@
 # 프로젝트 소개 및 생성
 ### 프로젝트 설명
----
 
 - 편의점 결제 서비스
 - 사용자가 편의점에서 간편 결제로 결제할 수 있는 시스템 개발
@@ -8,15 +7,12 @@
 
 ### 개발환경
 
----
-
 - Windows
 - IDE : IntelliJ Community
 - Language : Java( jdk 17 )
 - Project : Gradle Project
 - Spring Boot : 3.2.1
 
----
 <details>
 <summary>개발 과정 #1 : 기본 결제 기능 </summary>
 
@@ -24,28 +20,24 @@
 
 ### 기획자의 요구사항
 
----
 
 - 편의점은 GS25, CU, 세븐일레븐 입니다.
 - 결제만 되면 됩니다.
 
 ### 요구사항 분석 결과
 
----
 
 - 편의점은 정확히 정해져 있으니 enum으로 관리
 - 결제수단은 가장 간단한 money만 사용
 
 ### 클래스 UML
 
----
 
 ![image](https://github.com/dev-Seonghwan/convpay/assets/91909986/af80592c-4c32-4e8d-aa6a-7ac8a1143676)
 
-
+---
 </details>
 
----
 
 <details>
 <summary>개발 과정 #2 : 결제 수단 추가</summary>
@@ -54,14 +46,12 @@
 
 ### 기획자의 요구사항
 
----
 
 - 사용자들이 카드 결제도 하고싶어합니다.
 - 결제수단에 카드를 추가해주세요.
 
 ### 요구사항 분석 결과
 
----
 
 - 사용자의 결제 요청에 결제수단 정보 추가 ( 머니/카드 )
 
@@ -77,9 +67,9 @@
 
 ![image](https://github.com/dev-Seonghwan/convpay/assets/91909986/bb6fa20b-4c09-4cfd-a41b-12b8d2caa901)
 
+---
 </details>
 
----
 
 <details>
 <summary>개발 과정 #3 : 할인 기능 추가</summary>
@@ -88,14 +78,12 @@
 
 ### 기획자의 요구사항
 
----
 
 - 할인 기능이 필요합니다.
 - 하지만 아직 할인 정책을 정하지 못했어요.
 
 ### 요구사항 분석 결과
 
----
 
 - 할인 기능이 필요하나, 지금은 정해진게 없다.
 
@@ -107,9 +95,9 @@
 
 ### 클래스 UML
 
----
 ![image](https://github.com/dev-Seonghwan/convpay/assets/91909986/01f55419-e4ac-4278-9b2e-243ee4321c50)
 
+---
 </details>
 
 
@@ -120,8 +108,6 @@
 ## 결과
 
 ### 현재 클래스 UML
-
----
 
 ![image](https://github.com/dev-Seonghwan/convpay/assets/91909986/444283c2-1391-4618-99da-de79a2339b76)
 
