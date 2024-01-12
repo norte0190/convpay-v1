@@ -75,7 +75,6 @@
 
 ---
 
-![image](https://github.com/dev-Seonghwan/coding-test/assets/91909986/6c309a70-1427-4e78-8956-5fd64df754dd)
 ![image](https://github.com/dev-Seonghwan/convpay/assets/91909986/bb6fa20b-4c09-4cfd-a41b-12b8d2caa901)
 
 </details>
@@ -109,7 +108,6 @@
 ### 클래스 UML
 
 ---
-![image](https://github.com/dev-Seonghwan/coding-test/assets/91909986/2ddb89b9-00ee-4916-a25f-bec0b28b340a)
 ![image](https://github.com/dev-Seonghwan/convpay/assets/91909986/01f55419-e4ac-4278-9b2e-243ee4321c50)
 
 ---
